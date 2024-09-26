@@ -1,0 +1,59 @@
+.x {
+  padding-bottom: 18rem; /* 288px */
+}
+.rotate {
+  animation: rotate 5s linear infinite; /* Adjust duration as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.y {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.z {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+.curved-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-origin: center;
+  transform: rotate(0deg);
+}
+
+.curved-text:nth-child(1) {
+  transform: rotate(-30deg);
+}
+
+.curved-text:nth-child(2) {
+  transform: rotate(-15deg);
+}
+
+.curved-text:nth-child(3) {
+  transform: rotate(0deg);
+}
+
+/* Add more for more text variations */
